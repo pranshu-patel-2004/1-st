@@ -1,0 +1,248 @@
+
+    /* Global Styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f6f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    h1, h2 {
+        color: #3e4e5e;
+    }
+    .container {
+        width: 43%;
+        margin: 50px auto;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 57px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #333;
+    }
+
+    .form-control {
+        width: 50%;
+        padding: 7px;
+        margin: 11px 0 21px 0;
+        border: 2px solid #ccc;
+        border-radius: 20px;
+        font-size: 17px;
+    }
+
+    .btn {
+        background-color: #5c6bc0;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #3f4eac;
+    }
+
+    .alert {
+        padding: 15px;
+        background-color: #f8d7da;
+        color: #721c24;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+    }
+
+    .alert-danger {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
+
+    a {
+        color: #5c6bc0;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .mt-5 {
+        margin-top: 50px;
+    }
+
+    /* Table Styling */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f4f6f9;
+        color: #3e4e5e;
+    }
+
+    td {
+        background-color: #ffffff;
+    }
+
+    /* Status Styling */
+.status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Pending - Red */
+.status.pending {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+/* Approved - Green */
+.status.approved {
+    background-color: #28a745;
+    color: white;
+}
+
+    /* Button Styling for Approve */
+    button[type="submit"] {
+        background-color: #28a745;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #218838;
+    }
+
+
+    button[type="reset"] {
+        background-color: #28a745;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    button[type="reset"]:hover {
+        background-color: #218838;
+    }
+
+    /* Additional Layout for Admin and User Forms */
+    .form-container {
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        font-weight: bold;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .form-group select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    /* Specific Styles for Links */
+    p a {
+        color: #5c6bc0;
+        text-decoration: none;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+    }
+
+    .error-message {
+        color: red;
+        font-size: 14px;
+    }
+
+    /* Navigation Bar Styling */
+nav {
+    background-color: #0d0d0e; /* Blue Background */
+    padding: 1px;
+    display: flex;
+    justify-content: left;
+    gap: 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Navigation Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px 7px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+nav a:hover {
+    background-color: #0c0c0c; /* Darker Blue */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+}
+
+
+.log-out{
+    display: flex;
+    align-items: center;
+    gap: 34%;
+}
+
+
